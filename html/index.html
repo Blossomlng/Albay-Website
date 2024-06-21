@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Albay Province</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../src/IMAGES/mayon icon logo.jpg">
+    <link type="text/css" rel="stylesheet" href="../css/lightslider.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="../js/lightslider.js"></script>
+</head>
+<body>
+    <video src="../src/IMAGES/More Fun.mp4" autoplay muted loop class="bg_video"></video>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">Albay</a>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li><a href="./index.html" class="navlinks" id="home_page">Home</a></li>
+                <div class="dropdown">
+                    <li><a href="./About.html" class="navlinks" id="about_page">About</a>
+                    
+                        <ul class="dropContent">
+                            <li>
+                                <a href="./History.html">History</a>
+                            </li>
+                            <li>
+                                <a href="./Culture.html">Culture</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+                <li><a href="./Lodging.html" class="navlinks" id="lodging_page">Lodging</a></li>
+                <div class="dropdown">
+                    <li><a href="#products" class="navlinks" id="products_page">Product</a>
+                    
+                        <ul class="dropContent">
+                            <li>
+                                <a href="./Souvenirs.html">Souvenirs</a>
+                            </li>
+                            <li>
+                                <a href="./foods.html">Food</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+                <li class="navbutton"><a href="./Tourism.html" class="button" id="travel_page">Travel</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero_container">
+            <h1 class="hero_heading animate_hero">
+                Welcome to <span>Albay</span>
+            </h1>
+            <p class="hero_content animate_hero">
+                Best Place in the World
+            </p>
+        </div>
+    </div>
+
+    <section class="heading_quote">
+        <div class="quote_container animate_quote">
+            <p class="quotation animate_quote"> 
+                “Wherever you go becomes a part of you somehow” <br> – Anita Desai
+
+            </p>
+        </div>
+    </section>
+
+
+    <!-- About section  -->
+    <section class="about" id="about">
+        <div class="about_container">
+            <div class="about_icon_container">
+                <img src="../src/IMAGES/mayon icon.png" alt="" class="about_icon animate_icon">
+            </div>
+            <div class="about_content">
+                <h1 class="animate_content">Want to know more about Albay's</h1>
+                <h2 class="animate_content">History and Culture?</h2>
+                <p class="animate_content">Get to know Albay's History and Culture</p>
+                <button class="about_button animate_content">
+                    <a href="./About.html">Learn More</a>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Lodging Section -->
+    
+    <section class="lodging animate_lodging" id="lodging">
+        <div class="lodging_intro animate_intro">
+                <h1>Make your stay in <span>Albay</span> Comfortable</h1>
+        </div>
+        <div class="lodging_container">
+            <ul id="slider" class="cs-hidden">
+                <li class="item-a animate_item">
+                    <div class="lodging_slider_card">
+                        <div class="lodging_slider_img">
+                            <img src="../src/IMAGES/mayon view garden.jpg" alt="">
+                        </div>
+                        <div class="lodging_overlay">
+                            <div class="overlay_text">
+                                Mayon View Garden Apartelle
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-b animate_item">
+                    <div class="lodging_slider_card">
+                        <div class="lodging_slider_img">
+                            <img src="../src/IMAGES/casa simeon.jpg" alt="">
+                        </div>
+                        <div class="lodging_overlay">
+                            <div class="overlay_text">
+                                Casa Simeon
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-c animate_item">
+                    <div class="lodging_slider_card">
+                        <div class="lodging_slider_img">
+                            <img src="../src/IMAGES/Hotel-Fina.jpg" alt="">
+                        </div>
+                        <div class="lodging_overlay">
+                            <div class="overlay_text">
+                                Hotel Fina
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-d animate_item">
+                    <div class="lodging_slider_card">
+                        <div class="lodging_slider_img">
+                            <img src="../src/IMAGES/house tribal.jpg" alt="">
+                        </div>
+                        <div class="lodging_overlay">
+                            <div class="overlay_text">
+                                Your Brother's House Tribal Village
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-e animate_item">
+                    <div class="lodging_slider_card">
+                        <div class="lodging_slider_img">
+                            <img src="../src/IMAGES/marison hotel.png" alt="">
+                        </div>
+                        <div class="lodging_overlay">
+                            <div class="overlay_text">
+                                Marison Hotel
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button class="lodging_button animate_button">
+            <a href="./Lodging.html">View More</a>
+        </button>
+    </section>
+
+    <!-- Travel Section -->
+    <section class="travel" id="travel">
+        <div class="travel_container">
+            <div class="travel_text">
+                <p class="travel_header animate_text">A Must to Visit</p>
+                <h1 class="animate_text">Explore Wonders in Albay</h1>
+                <p class="travel_detail animate_text">
+                    Albay Province is home to some of the most well-known and <br>
+                    beautiful wonders that our country has to offer.
+                </p>
+
+            </div>
+            <div class="travel_text">
+                <p class="travel_header animate_text2">Relax and Enjoy</p>
+                <h1 class="animate_text2">Albay Province</h1>
+                <p class="travel_detail animate_text2">
+                    “At the end of the day your feet should be dirty, your hair messy and your eyes sparkling.”
+                </p>
+                <button class="travel_button animate_text2">
+                    <a href="./Tourism.html">Explore more</a>
+                </button>
+            </div>    
+            <div class="travel_card animate_card">
+                    <p>Mayon Volcano</p>
+                    <img src="../src/IMAGES/mayon.png" alt="" class="travel_img">
+            </div>
+            <div class="travel_card animate_card2">
+                    <p>Casagwa Ruins</p>
+                    <img src="../src/IMAGES/cagsawa (1).png" alt="" class="travel_img">
+            </div>
+            <div class="travel_card animate_card3">
+                    <p>Hoyop Cave</p>
+                    <img src="../src/IMAGES/Hoyop cave.jpg" alt="" class="travel_img">
+            </div>
+            <div class="travel_card animate_card4">
+                    <p>Pinamuntungan</p>
+                    <img src="../src/IMAGES/pinamuntugan-island.jpg" alt="" class="travel_img">
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="line_space">
+        <span class="line animate_products"></span>
+    </div>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h1 class="product_header animate_products">Check Out Products in <span>Albay</span></h1>
+         <div class="products_container">
+            <div class="product_button_container animate_products">
+                <a href="">
+                    <img src="../src/IMAGES/ceramics.jpg" alt="" class="button_img">
+                </a>
+                <div class="button_overlay">
+                    <a href="./Souvenirs.html" class="product_overlay_text">Local Products</a>
+                </div>
+            </div>
+            <div class="product_button_container animate_products">
+                <a href="">
+                    <img src="../src/IMAGES/bicol.jpg" alt="" class="button_img">
+                </a>
+                <div class="button_overlay">
+                    <a href="./foods.html" class="product_overlay_text">Food Delicacies</a>
+                </div>
+            </div>
+         </div>
+    </section>
+
+
+    <!-- Footer Contact Form -->
+    <footer>
+        <div class="ContactFormSection">
+            <div class="contactform">
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Write a message</span>  
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Submit">
+                    </div>
+                </form>
+                <br>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

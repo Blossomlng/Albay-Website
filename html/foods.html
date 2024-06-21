@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foods</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/Products.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../src/IMAGES/mayon icon logo.jpg">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="../css/lightslider.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="../js/lightslider.js"></script>
+    </head>
+    
+    <body style="background-color: rgb(255, 255, 255);">
+        <div class="main" align="center">
+            <div class="topbanner">
+                <!-- NavBar -->
+                <nav class="navbar">
+                    <div class="navbar_container">
+                        <a href="#home" id="navbar_logo">Albay</a>
+                        <div class="navbar_toggle" id="mobile_menu">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                        <ul class="navbar_menu">
+                            <li><a href="./index.html" class="navlinks" id="home_page">Home</a></li>
+                            <div class="dropdown">
+                                <li><a href="./About.html" class="navlinks" id="about_page">About</a>
+                                
+                                    <ul class="dropContent">
+                                        <li>
+                                            <a href="./History.html">History</a>
+                                        </li>
+                                        <li>
+                                            <a href="./Culture.html">Culture</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <li><a href="./Lodging.html" class="navlinks" id="lodging_page">Lodging</a></li>
+                            <div class="dropdown">
+                                <li><a href="#products" class="navlinks" id="products_page">Product</a>
+                                
+                                    <ul class="dropContent">
+                                        <li>
+                                            <a href="./Souvenirs.html">Souvenirs</a>
+                                        </li>
+                                        <li>
+                                            <a href="./foods.html">Food</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <li class="navbutton"><a href="./Tourism.html" class="button" id="travel_page">Travel</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Title Banner -->
+            <div class="title"> 
+                <h1>FOOD <br> DELICACIES</h1>
+            </div>
+            <div class="content1">
+                <div class="intro animate_quote">
+                    The Albay province is known for its savory and 
+                    extremely spicy cuisine, which will surely captivate 
+                    your tongue as you reach for a glass of cold water.
+                </div>
+            </div>
+
+            <!-- Main Content-->
+            <div class="entries">
+                <div class="entry1">
+                    <div class="pic1 animate_picture">
+                        <img src="../src/IMAGES/pilinuts2.jpg">
+                    </div>
+                    <div class="title1 animate_title">
+                        <h1>Pili Nuts</h1>
+                    </div>
+                    <div class="des1 animate_desc">
+                        Albay is known for its homegrown premium pili nuts. 
+                        The usual favorites are crispy candies pili nuts with honey, 
+                        roasted and salted pili, marzipan, butternuts, caramelitos, pastillas, 
+                        and sesame seed coated pili nuts.
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="entry2">
+                    <div class="pic2 animate_picture2">
+                        <img src="../src/IMAGES/pinangat2.jpg">
+                    </div>
+                    <div class="title2 animate_title2">
+                        <h1>Pinangat</h1>
+                    </div>
+                    <div class="des2 animate_desc2">
+                        Pinangat is a version of laing, a famous native chili-hot 
+                        dish of a little town of Camalig, Albay which is a blend of 
+                        ground pork, coconut milk, diced shrimps, and chili wrapped in
+                        gabi leaves. This dish is well-known among Bicolanos because 
+                        of its distinctive taste that a Bicolano could perfect. 
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="entry3 ">
+                    <div class="pic1 animate_picture3">
+                        <img src="../src/IMAGES/bicol.jpg">
+                    </div>
+                    <div class="title3 animate_title3">
+                        <h1>Bicol Express</h1>
+                    </div>
+                    <div class="des3 animate_desc3">
+                        Bicol Express is what Bicolanos are known for. It has that good amount 
+                        of heat that can awaken your taste buds. It has pork cubes cooked in 
+                        coconut milk and sili with that yumminess you’ll crave after.
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <!-- Contact Form -->
+            <div class="main5" align="center">
+                <div class="contactform">
+                    <form>
+                        <h2>Contact Us</h2>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea required="required"></textarea>
+                            <span>Write a message</span>  
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="Submit">
+                        </div>
+                    </form>
+
+                    <!-- Footer -->
+                    <br>
+                    <p>@2023 in Partial requirement for the subject of PECEP</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+        <script src="../js/Products.js"></script>
+    </body>
+</html>

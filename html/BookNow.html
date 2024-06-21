@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Book Now | Albay Province</Title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/BookNow.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../src/IMAGES/mayon icon logo.jpg">
+    </head>
+    <body>
+        <!--Start of NavBar-->
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="index.html" id="navbar_logo">Albay</a>
+                <div class="navbar_toggle" id="mobile_menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li><a href="index.html" class="navlinks" id="home_page">Home</a></li>
+                    <div class="dropdown">
+                        <li><a href="About.html" class="navlinks" id="about_page">About</a>
+                    
+                            <ul class="dropContent">
+                                <li>
+                                    <a href="History.html">History</a>
+                                </li>
+                                <li>
+                                    <a href="Culture.html">Culture</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li><a href="Lodging.html" class="navlinks" id="lodging_page">Lodging</a></li>
+                    <div class="dropdown">
+                        <li><a href="#products" class="navlinks" id="products_page">Product</a>
+                    
+                            <ul class="dropContent">
+                                <li>
+                                    <a href="Souvenirs.html">Souvenirs</a>
+                                </li>
+                                <li>
+                                    <a href="foods.html">Food</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li class="navbutton"><a href="Tourism.html" class="button" id="travel_page">Travel</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--End of NavBar-->
+        <div class="blur"></div>
+        <!--Start of Book Now Form-->
+        <div class="container">
+            <div class="contact-box">
+                <div class="left">
+                    <h2>Book Now</h2>
+                    <div class="Name">
+                        <input type="text" class="NameFieldF" placeholder="First Name">
+                        <input type="text" class="NameFieldL" placeholder="Last Name">
+                    </div>
+                    <input type="text" class="field" placeholder="Subject">
+                    <input type="text" class="field" placeholder="Email">
+                    <input type="text" class="field" placeholder="Phone">
+                    <select class="field">
+                        <option value="Choose your hotel">Choose your hotel</option>
+                        <option value="Casa Simeon">Casa Simeon</option>
+                        <option value="Hotel Fina">Hotel Fina</option>
+                        <option value="Mayon View Garden Apartelle">Mayon View Garden Appartelle</option>
+                        <option value="Brother's House Tribal Village">Brother's House Tribal Village</option>
+                        <option value="The Marison Hotel">The Marison Hotel</option>
+                    </select>
+                    <div class="Date">
+                        <input type="date" class="Check-In" value="Check-In" placeholder="Check-In: &nbsp;">
+                        <input type="date" class="Check-Out" value="Check-Out" placeholder="Check-Out: &nbsp;">
+                    </div>
+                    <textarea placeholder="Message" class="field"></textarea>
+                    <button class="btn">Submit</button>
+                </div>
+                <div class="right">
+                    <img src="../src/IMAGES/marison hotel_3.jpg">
+                </div>
+            </div>
+        </div>
+        <!--End of Book Now Form-->
+    </body>
+    <script src="../js/Lodging.js"></script>
+</html>

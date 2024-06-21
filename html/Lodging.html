@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Lodging | Albay Province</Title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/Lodging.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../src/IMAGES/mayon icon logo.jpg">
+        <link type="text/css" rel="stylesheet" href="../css/lightslider.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="../js/lightslider.js"></script>    
+    </head>
+    <body>
+        <!--Start of NavBar-->
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="index.html" id="navbar_logo">Albay</a>
+                <div class="navbar_toggle" id="mobile_menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li><a href="index.html" class="navlinks" id="home_page">Home</a></li>
+                    <div class="dropdown">
+                        <li><a href="About.html" class="navlinks" id="about_page">About</a>
+                    
+                            <ul class="dropContent">
+                                <li>
+                                    <a href="History.html">History</a>
+                                </li>
+                                <li>
+                                    <a href="Culture.html">Culture</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li><a href="./Lodging.html" class="navlinks" id="lodging_page">Lodging</a></li>
+                    <div class="dropdown">
+                        <li><a href="#" class="navlinks" id="products_page">Product</a>
+                    
+                            <ul class="dropContent">
+                                <li>
+                                    <a href="Souvenirs.html">Souvenirs</a>
+                                </li>
+                                <li>
+                                    <a href="foods.html">Food</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li class="navbutton"><a href="Tourism.html" class="button" id="travel_page">Travel</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--End of NavBar-->
+        <header>
+            <div class="TextBox1">
+                <div class="Rooms">
+                    <p>
+                        Rooms
+                    </p>
+                </div>
+            </div>
+        </header>
+        <!--End of Header-->
+        <!--Start of Section 1-->
+        <div class="ContainerSection1">
+            <div class="Section1">
+                <div class="OurRooms">
+                <p>Our Rooms</p>
+                </div>
+                <hr class="line">
+                <div class="Forms">
+                    <div class= "Dates">
+                        <input type="date" class="Check-In" value="Check-In" placeholder="Check-In: &nbsp;">
+                        <input type="date" class="Check-Out" value="Check-Out" placeholder="Check-Out: &nbsp;">
+                    </div>
+                    <div class="Rest">
+                        <input type="number" value="" class="Kids" placeholder="KIDS">
+                        <input type="number" value="" class="Adults" placeholder="ADULTS">
+                        <button class="btn">Search</button>
+                    </div>
+                </div>
+                <hr class="line">
+            </div>
+        </div>
+        <!--End of Section 1-->
+        <!--Start of Casa Simeon-->
+        <div class="ContainerSection2">
+            <div class="Section2">
+                <div class="CasaSimeonP">
+                    <img src="../src/IMAGES/Casa_SimeonT.jpg" width="100%">
+                </div>
+                <div class="CasaSimeonI">
+                    <div class="CasaSimeonN">
+                        <p>Casa Simeon</p>
+                    </div>
+                    <div class="CasaSimeonA">
+                        <p>Barangay 13, Poblacion, Bacacay # 1 Bes Street 4509 Legazpi Bicol Region</p>
+                    </div>
+                    <hr class="line1">
+                </div>
+                <div class="CasaSimeonC">
+                    <div class="From1">
+                        <p>From</p>
+                    </div>
+                    <div class="Price1">
+                        <p>PHP 2,100</p>
+                    </div>
+                    <div class="MoreInfo1">
+                    <button onclick="show_hide1()"><a href="#ContainerSection2-1">More Info</a></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="line1-1">
+        </div>
+        <!--End of Casa Simeon-->
+        <!--Start of Casa Simeon See More-->
+        <div class="ContainerSection2-1" id="ContainerSection2-1">
+            <div class="Section2-1">
+                <div  class="CasaSimeonP-1" id="home">
+                    <div class="CasaSimeonP-1_container">
+                        <ul id="autoplay1" class="cs-hidden">
+                            <li class="item-a">
+                                <img src="../src/IMAGES/CasaSimeon1.jpg" alt="" class="CasaSimeonP-1_image">
+                            </li>
+                            <li class="item-b">
+                                <img src="../src/IMAGES/CasaSimeon2.jpg" alt="" class="CasaSimeonP-1_image">
+                            </li>
+                            <li class="item-c">
+                                <img src="../src/IMAGES/CasaSimeon3.jpg" alt="" class="CasaSimeonP-1_image">
+                            </li>
+                            <li class="item-d">
+                                <img src="../src/IMAGES/CasaSimeon4.jpg" alt="" class="CasaSimeonP-1_image">
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="CasaSimeonI-1">
+                    <div class="CasaSimeonN-1">
+                        <p>Casa Simeon</p>
+                    </div>
+                    <div class="CasaSimeonC-1">
+                        <p>In a charming wood house built in 1920, this homey guesthouse is 10 minutes walk
+                        from Bacacay Port ferry terminal, 3 km from Panarayon Beach, and 10 km from Mount 
+                        Bulakawan Reserve nature preserve. There are 9 simple rooms. Amenities consist of a 
+                        genteel restaurant, a library, and a compact museum, as well as gardens and event space. 
+                        Breakfast and parking are available.</p>
+                    </div>
+                    <div class="CasaSimeonB">
+                        <a href="BookNow.html">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Casa Simeon See More-->
+        <!--Start of Hotel Fina-->
+        <div class="ContainerSection3">
+            <div class="Section3">
+                <div class="HotelFinaP">
+                    <img src="../src/IMAGES/hotel fina_2.JPG" width="100%">
+                </div>
+                <div class="HotelFinaI">
+                    <div class="HotelFinaN">
+                        <p>Hotel Fina</p>
+                    </div>
+                    <div class="HotelFinaA">
+                        <p>AA Berces Street, Tabaco City, Albay</p>
+                    </div>
+                    <hr class="line2">
+                </div>
+                <div class="HotelFinaC">
+                    <div class="From2">
+                        <p>From</p>
+                    </div>
+                    <div class="Price2">
+                        <p>PHP 2,100</p>
+                    </div>
+                    <div class="MoreInfo2">
+                    <button onclick="show_hide2()"><a href="#ContainerSection3-1">More Info</a></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="line2-1">
+        </div>
+        <!--End of Hotel Fina-->
+        <!--Start of Hotel Fina See More-->
+        <div class="ContainerSection3-1" id="ContainerSection3-1">
+            <div class="Section3-1">
+                <div  class="HotelFinaP-1" id="home">
+                    <div class="HotelFinaP-1_container">
+                        <ul id="autoplay2" class="cs-hidden">
+                            <li class="item-a">
+                                <img src="../src/IMAGES/hotel fina drinks.jpg" alt="" class="HotelFinaP-1_image">
+                            </li>
+                            <li class="item-b">
+                                <img src="../src/IMAGES/hotel fina ktv bus.jpg" alt="" class="HotelFinaP-1_image">
+                            </li>
+                            <li class="item-c">
+                                <img src="../src/IMAGES/hotel fina pool.jpg" alt="" class="HotelFinaP-1_image">
+                            </li>
+                            <li class="item-d">
+                                <img src="../src/IMAGES/hotel fina_1.jpg" alt="" class="HotelFinaP-1_image">
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="HotelFinaI-1">
+                    <div class="HotelFinaN-1">
+                       <p>Hotel Fina</p>
+                    </div>
+                    <div class="HotelFinaC-1">
+                        <p>The hotel of choice both for locals and tourists alike! With its wide range of amenities, 
+                            easily accessible location, and hospitable staff, rest assured to feel extra special along 
+                            with its spacious and comfortable rooms, a fantastic restaurant that infuses home-cooked and 
+                            international cuisine and drinks, a relaxing infinity pool and Jacuzzi, and its entertaining 
+                            jazz bar and KTV party bus. Experience a memorable stay you’ll never forget when you visit the 
+                            city of love</p>
+                    </div>
+                    <div class="HotelFinaB">
+                        <a href="BookNow.html">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Hotel Fina See More-->
+        <!--Start of Mayon View Garden Apartelle-->
+        <div class="ContainerSection4">
+            <div class="Section4">
+                <div class="mvgaP">
+                    <img src="../src/IMAGES/mayon view_1.jpg" width="100%">
+                </div>
+                <div class="mvgaI">
+                    <div class="mvgaN">
+                        <p>Mayon View Garden Apartelle</p>
+                    </div>
+                    <div class="mvgaA">
+                        <p>Narra Drive, Pagasa Rawis, Legazpi, 4500, Albay, Philippines</p>
+                    </div>
+                    <hr class="line3">
+                </div>
+                <div class="mvgaC">
+                    <div class="From3">
+                        <p>From</p>
+                    </div>
+                    <div class="Price3">
+                        <p>PHP 2,100</p>
+                    </div>
+                    <div class="MoreInfo3">
+                    <button onclick="show_hide3()"><a href="#ContainerSection4-1">More Info</a></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="line3-1">
+        </div>
+        <!--End of Mayon View Garden Apartelle-->
+        <!--Start of Mayon View Garden Apartelle See More-->
+        <div class="ContainerSection4-1" id="ContainerSection4-1">
+            <div class="Section4-1">
+                <div  class="mvgaP-1" id="home">
+                    <div class="mvgaP-1_container">
+                        <ul id="autoplay3" class="cs-hidden">
+                            <li class="item-a">
+                                <img src="../src/IMAGES/mayon view garde...jpg" alt="" class="mvgaP-1_image">
+                            </li>
+                            <li class="item-b">
+                                <img src="../src/IMAGES/Mayon view garden rooms.jpg" alt="" class="mvgaP-1_image">
+                            </li>
+                            <li class="item-c">
+                                <img src="../src/IMAGES/Mayon view garden.jpg" alt="" class="mvgaP-1_image">
+                            </li>
+                            <li class="item-d">
+                                <img src="../src/IMAGES/mayon view_1.jpg" alt="" class="mvgaP-1_image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mvgaI-1">
+                    <div class="mvgaN-1">
+                        <p>Mayon View Garden <br> Apartelle</p>
+                    </div>
+                    <div class="mvgaC-1">
+                        <p>Set in Legazpi, 3.1 mi from Cagsawa Ruins, Mayon View Garden Apartelle provides 
+                            air-conditioned rooms with free WiFi.Located around 1.9 mi from IbalongCentrum for 
+                            Recreation, the hotel is also 4.3 mi away from Mayon Volcano. The property features a 
+                            24-hour front desk. All guest rooms in the hotel are equipped with a flat-screen TV. 
+                            The private bathroom is fitted with a shower and free toiletries.</p>
+                    </div>
+                    <div class="mvgaB">
+                        <a href="BookNow.html">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Mayon View Garden Apartelle See More-->
+        <!--Start of Your Brother's House Tribal Village-->
+        <div class="ContainerSection5">
+            <div class="Section5">
+                <div class="ybhtvP">
+                    <img src="../src/IMAGES/your brother_s house 1.1.jpg" width="100%">
+                </div>
+                <div class="ybhtvI">
+                    <div class="ybhtvN">
+                        <p>Your Brother's House Tribal Village</p>
+                    </div>
+                    <div class="ybhtvA">
+                        <p>Pawa Rd, Legazpi City, 4500 Albay, Philippines</p>
+                    </div>
+                    <hr class="line4">
+                </div>
+                <div class="ybhtvC">
+                    <div class="From4">
+                        <p>From</p>
+                    </div>
+                    <div class="Price4">
+                        <p>PHP 2,100</p>
+                    </div>
+                    <div class="MoreInfo4">
+                    <button onclick="show_hide4()"><a href="#ContainerSection5-1">More Info</a></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="line4-1">
+        </div>
+        <!--End of Your Brother's House Tribal Village-->
+        <!--Start of Your Brother's House Tribal Village See More-->
+        <div class="ContainerSection5-1" id="ContainerSection5-1">
+            <div class="Section5-1">
+                <div  class="ybhtvP-1" id="home">
+                    <div class="ybhtvP-1_container">
+                        <ul id="autoplay4" class="cs-hidden">
+                            <li class="item-a">
+                                <img src="../src/IMAGES/your brother_s house 1.1.jpg" alt="" class="ybhtvP-1_image">
+                            </li>
+                            <li class="item-b">
+                                <img src="../src/IMAGES/your brother_s house.jpg" alt="" class="ybhtvP-1_image">
+                            </li>
+                            <li class="item-c">
+                                <img src="../src/IMAGES/your brothers house ...jpg" alt="" class="ybhtvP-1_image">
+                            </li>
+                            <li class="item-d">
+                                <img src="../src/IMAGES/your brothers house foodplace.jpg" alt="" class="ybhtvP-1_image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ybhtvI-1">
+                    <div class="ybhtvN-1">
+                        <p>Brother's House Tribal Village</p>
+                    </div>
+                    <div class="ybhtvC-1">
+                        <p>Your Brother's House is a tribal-esque village located at Brgy. Pawa. Surrounded by 
+                            large greens with an amazing view of the Ligñon hill and the Mayon Volcano, the tribal 
+                            Village is the perfect place for your next getaway that's authentically tribal.</p>
+                    </div>
+                    <div class="ybhtvB">
+                        <a href="BookNow.html">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Your Brother's House Tribal Village See More-->
+        <!--Start of The Marison Hotel-->
+        <div class="ContainerSection6">
+            <div class="Section6">
+                <div class="tmhP">
+                    <img src="../src/IMAGES/marison hotel_4.jpg" width="100%">
+                </div>
+                <div class="tmhI">
+                    <div class="tmhN">
+                        <p>The Marison Hotel</p>
+                    </div>
+                    <div class="tmhA">
+                        <p>Corner Imelda Roces Avenue, Barangay 38, Gogon, Bicol, 4500 Legazpi, Philippines</p>
+                    </div>
+                    <hr class="line5">
+                </div>
+                <div class="tmhC">
+                    <div class="From5">
+                        <p>From</p>
+                    </div>
+                    <div class="Price5">
+                        <p>PHP 2,100</p>
+                    </div>
+                    <div class="MoreInfo5">
+                    <button onclick="show_hide5()"><a href="#ContainerSection6-1">More Info</a></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="line5-1">
+        </div>
+        <!--End of The Marison Hotel-->
+        <!--Start of The Marison Hotel See More-->
+        <div class="ContainerSection6-1" id="ContainerSection6-1">
+            <div class="Section6-1">
+                <div  class="tmhP-1" id="home">
+                    <div class="tmhP-1_container">
+                        <ul id="autoplay5" class="cs-hidden">
+                            <li class="item-a">
+                                <img src="../src/IMAGES/marison cafe bar.jpg" alt="" class="tmhP-1_image"> 
+                            </li>
+                            <li class="item-b">
+                                <img src="../src/IMAGES/marison hotel room.jpg" alt="" class="tmhP-1_image">
+                            </li>
+                            <li class="item-c">
+                                <img src="../src/IMAGES/marison hotel_1.jpg" alt="" class="tmhP-1_image">
+                            </li>
+                            <li class="item-d">
+                                <img src="../src/IMAGES/marison hotel_2.jpg" alt="" class="ybhtvP-1_image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tmhI-1">
+                    <div class="tmhN-1">
+                        <p>The Marison Hotel</p>
+                    </div>
+                    <div class="tmhC-1">
+                        <p>Set alongside a busy road and with views of the Mayon Volcano, this informal 
+                            hotel is16 minutes' walk from Yashano Mall and 4km from Ligñon Hill Nature Park. 
+                            It's 12km from Bicol International Airport. Understated rooms feature Wi-Fi, minifridges,
+                            and TVs, as well as tea and coffeemakers. Upgraded rooms add sitting areas and/or volcano 
+                            views. Suites have separate living rooms. Room service and in-room massages are available.</p>
+                    </div>
+                    <div class="tmhB">
+                        <a href="BookNow.html">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Your Brother's House Tribal Village See More-->
+        <!-- Footer Contact Form -->
+        <footer>
+            <div class="ContactFormSection">
+                <div class="contactform">
+                    <form>
+                        <h2>Contact Us</h2>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea required="required"></textarea>
+                            <span>Write a message</span>  
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="Submit">
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="../js/Lodging.js"></script>  
+</html>
